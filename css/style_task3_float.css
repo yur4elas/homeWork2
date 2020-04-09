@@ -1,0 +1,48 @@
+
+header{
+    width: 90%;
+    margin: 0 5%;
+    height: 15%;
+    background-color: greenyellow;
+    border-radius: 0 0 10px 10px;
+    text-align: center;
+}
+
+#content{
+    width: 100%;
+    height: 600px;
+}
+
+.menu{
+    width: 10%;
+    height: 600px;
+    background-color: rgba(115, 170, 200, .5);
+    position: fixed;
+    float: left;
+}
+
+.main{
+    margin-left: 10%;
+    width: 90%;
+    height: 600px;
+    background-color: royalblue ;
+    float: left;
+}
+
+footer{
+    width: 90%;
+    height: 15%;
+    margin: 0 5%;
+    background-color: slateblue;
+    border-radius: 10px 10px 0 0;
+    text-align: center;
+}
+h3, p, li{
+    padding: 10px;
+}
+ul li{
+    list-style-position: outside;
+}
+ol li{
+    list-style-position: inside;
+}
